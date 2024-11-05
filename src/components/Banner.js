@@ -15,9 +15,10 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [
     'Software Engineer',
-    'Aspiring Data Scientist/Analyst',
+    'Aspiring Data Scientist',
     'Web Developer',
     'Full Stack Software Developer',
+    'Aspiring Data Analyst',
   ];
   const period = 1000;
 
@@ -76,7 +77,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate="['Software Engineer', 'Aspiring Data Scientist/Analyst', Web Developer, 'Full Stack Web Developer']"
+                      data-rotate="['Software Engineer', 'Aspiring Data Scientist', Web Developer, 'Full Stack Web Developer', 'Aspiring Data Analyst']"
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -107,7 +108,11 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 // Visibility to persist
-                <div className={isVisible ? 'header-img-container' : 'header-img-container'}> 
+                <div
+                  className={
+                    isVisible ? 'header-img-container' : 'header-img-container'
+                  }
+                >
                   <img src={headerImg} alt="Header Img" />
                 </div>
               )}
