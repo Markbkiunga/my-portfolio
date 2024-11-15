@@ -8,7 +8,7 @@
   justify-content: center;
 }
 #loading-screen-container img {
-  width: auto;
+  width: 50%;
   animation: zoom-in-zoom-out 1.5s ease-in-out infinite;
 }
 @keyframes zoom-in-zoom-out {
@@ -20,10 +20,5 @@
   }
   100% {
     transform: scale(1, 1);
-  }
-}
-@media only screen and (max-width: 500px) {
-  #loading-screen-container img {
-    width: 250px;
   }
 }
