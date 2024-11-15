@@ -8,7 +8,7 @@
   justify-content: center;
 }
 #loading-screen-container img {
-  width: auto;
+  width: 50%;
   animation: zoom-in-zoom-out 1.5s ease-in-out infinite;
 }
 @keyframes zoom-in-zoom-out {
