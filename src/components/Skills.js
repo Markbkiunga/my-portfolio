@@ -19,6 +19,10 @@ import postgresLogo from '../assets/img/postgresql.svg';
 import dockerLogo from '../assets/img/docker.svg';
 import typescriptLogo from '../assets/img/typescript.svg';
 import reduxLogo from '../assets/img/redux.svg';
+import mongodbLogo from '../assets/img/mongodb.svg';
+import mongooseLogo from '../assets/img/mongoose.svg';
+import chakrauiLogo from '../assets/img/chakraui.svg';
+import expressLogo from '../assets/img/express.svg';
 // import arrow1 from '../assets/img/arrow1.svg';
 // import arrow2 from '../assets/img/arrow2.svg';
 import colorSharp from '../assets/img/color-sharp.png';
@@ -136,6 +140,22 @@ export const Skills = () => {
                 <div className="item">
                   <img src={reduxLogo} alt="Redux-logo" />
                   <h5>Redux</h5>
+                </div>
+                <div className="item">
+                  <img src={mongodbLogo} alt="MongoDB-logo " />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={mongooseLogo} alt="Mongoose-logo " />
+                  <h5>Mongoose</h5>
+                </div>
+                <div className="item">
+                  <img src={chakrauiLogo} alt="ChakraUI-logo " />
+                  <h5>Chakra UI</h5>
+                </div>
+                <div className="item">
+                  <img src={expressLogo} alt="Express-logo " />
+                  <h5>Express</h5>
                 </div>
               </Carousel>
             </div>
