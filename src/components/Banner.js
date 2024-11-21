@@ -97,7 +97,7 @@ export const Banner = () => {
                       //   connectSection.scrollIntoView();
                       // }
                       window.open(
-                        'https://drive.google.com/file/d/1z905ZAKZ39yNpjagw03SNp3PZ60CW5MT/view?usp=sharing',
+                        'https://drive.google.com/file/d/1ie_eidd1kerw50GOBUgoGR0C17WSPe9T/view?usp=sharing',
                         '_blank'
                       );
                     }}
