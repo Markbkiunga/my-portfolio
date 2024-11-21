@@ -92,13 +92,18 @@ export const Banner = () => {
                   </p>
                   <button
                     onClick={() => {
-                      const connectSection = document.getElementById('connect');
-                      if (connectSection) {
-                        connectSection.scrollIntoView();
-                      }
+                      // const connectSection = document.getElementById('connect');
+                      // if (connectSection) {
+                      //   connectSection.scrollIntoView();
+                      // }
+                      window.open(
+                        'https://drive.google.com/file/d/1z905ZAKZ39yNpjagw03SNp3PZ60CW5MT/view?usp=sharing',
+                        '_blank'
+                      );
                     }}
                   >
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    View CV
+                    <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
