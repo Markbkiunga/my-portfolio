@@ -2,9 +2,10 @@
 import { ProjectCard } from './ProjectCard';
 import safiriPhoto from '../assets/img/safiri-home-page.png';
 import simpleSocialMediaWebsitePhoto from '../assets/img/simple-interactive-social-media-website-home-page.png';
-import bnbMusicSchoolWebsitePhoto from '../assets/img/b&b-music-school-website-home-page.png';
+import medrinJobsPhoto from '../assets/img/medrin-jobs.png';
 import financeManagerCLI from '../assets/img/finance-manager-cli.png';
 import flatdangoMovieTheater from '../assets/img/flatdango-movie-theatre-home-page.png';
+
 // import shoppingListWebsite from '../assets/img/shopping-list-home-page.png';
 import mernApplicationWebsite from '../assets/img/mern-application.png';
 // import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -50,11 +51,11 @@ export const Projects = () => {
       webUrl: 'https://week-3-code-challenge-phi.vercel.app/',
     },
     {
-      title: 'B&B Music School Website',
+      title: 'Medrin Jobs',
       description:
-        'My first attempt as a programming beginner at creating a website for BnB Music School which aspires to mould young musicians into prodigies of the future',
-      imgUrl: bnbMusicSchoolWebsitePhoto,
-      webUrl: 'https://markbkiunga.github.io/BnB-Music-School-Website/',
+        'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
+      imgUrl: medrinJobsPhoto,
+      webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
     },
   ];
 
