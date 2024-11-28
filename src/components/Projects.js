@@ -15,11 +15,25 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
+      title: 'Medrin Jobs',
+      description:
+        'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
+      imgUrl: medrinJobsPhoto,
+      webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
+    },
+    {
       title: 'Safiri',
       description:
         'A travel app designed to help users explore various destinations, submit reviews, and view a slideshow of attractive travel locations',
       imgUrl: safiriPhoto,
       webUrl: 'https://safiri-phase-4-project.vercel.app/',
+    },
+    {
+      title: 'MERN Stack Products Application',
+      description:
+        'A MERN stack website which allows users to create, view, update and delete products',
+      imgUrl: mernApplicationWebsite,
+      webUrl: 'https://mern-application-crashcourse.onrender.com/',
     },
     {
       title: 'Simple Interactive Social Media Website',
@@ -28,14 +42,6 @@ export const Projects = () => {
       imgUrl: simpleSocialMediaWebsitePhoto,
       webUrl: 'https://phase-1-project-rho.vercel.app/',
     },
-    {
-      title: 'Mern Application',
-      description:
-        'A MERN stack website which allows users to create, view, update and delete products',
-      imgUrl: mernApplicationWebsite,
-      webUrl: 'https://mern-application-crashcourse.onrender.com/',
-    },
-
     {
       title: 'Finance Manager CLI',
       description:
@@ -49,13 +55,6 @@ export const Projects = () => {
         'A simple mini web application that allows one to see a menu of movies, display its details and buy a ticket',
       imgUrl: flatdangoMovieTheater,
       webUrl: 'https://week-3-code-challenge-phi.vercel.app/',
-    },
-    {
-      title: 'Medrin Jobs',
-      description:
-        'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
-      imgUrl: medrinJobsPhoto,
-      webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
     },
   ];
 
