@@ -27,11 +27,12 @@ import shadcnuiLogo from '../assets/img/shadcnui.svg';
 import sassLogo from '../assets/img/sass.svg';
 import nextjsLogo from '../assets/img/nextjs.svg';
 import cssLogo from '../assets/img/css.svg';
+import vercelLogo from '../assets/img/vercel.svg';
+import convexLogo from '../assets/img/convex.svg';
 // import arrow1 from '../assets/img/arrow1.svg';
 // import arrow2 from '../assets/img/arrow2.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-
 
 export const Skills = () => {
   const responsive = {
@@ -161,6 +162,10 @@ export const Skills = () => {
                       <img src={sqliteLogo} alt="SQLite-logo" />
                       <h5>SQLite</h5>
                     </div>
+                    <div className="item">
+                      <img src={convexLogo} alt="Convex-logo" />
+                      <h5>Convex</h5>
+                    </div>
                   </Carousel>
                 </TabPanel>
 
@@ -186,6 +191,10 @@ export const Skills = () => {
                     <div className="item">
                       <img src={renderLogo} alt="Render-logo" />
                       <h5>Render</h5>
+                    </div>
+                    <div className="item">
+                      <img src={vercelLogo} alt="Vercel-logo" />
+                      <h5>Vercel</h5>
                     </div>
                     <div className="item">
                       <img src={viteLogo} alt="Vite-logo" />
