@@ -377,6 +377,83 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+/* Basic styling for the tabs */
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ddd;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for individual tabs */
+.react-tabs__tab {
+  list-style: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for tabs */
+.react-tabs__tab:hover {
+  color: white;
+  border-radius: 4px;
+}
+
+/* Active tab styling */
+.react-tabs__tab--selected {
+  color: white;
+  font-weight: 600;
+  border-radius: 4px 4px 0 0;
+  border-bottom: none;
+}
+
+/* Styling for tab content (TabPanel) */
+.react-tabs__tab-panel {
+  padding: 20px;
+  display: none;
+}
+
+/* Show active TabPanel */
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+/* Optional: Add a little spacing between the tabs */
+.react-tabs__tab-list {
+  margin-bottom: 20px;
+}
+
+/* Optional: A subtle shadow effect for the tabs container */
+.react-tabs__tab-list {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Add transition for smooth switching between panels */
+.react-tabs__tab-panel {
+  transition: opacity 0.3s ease;
+}
+
+/* Customize active tab panel background */
+.react-tabs__tab-panel--selected {
+  border-radius: 4px;
+}
+
+/* Optional: Customize the tab panel for responsiveness */
+@media (max-width: 992px) {
+  .react-tabs__tab-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .react-tabs__tab {
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+}
 
 /************ Projects Css ************/
 .project {
@@ -680,7 +757,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-
 }
 @media only screen and (max-width: 425px) {
   #project-tiles {
@@ -689,7 +765,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   }
 }
 @media only screen and (max-width: 992px) {
-  .new-email-bx{
+  .new-email-bx {
     flex-direction: column;
   }
   .new-email-bx button {
