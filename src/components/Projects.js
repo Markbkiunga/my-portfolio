@@ -1,11 +1,12 @@
 // import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from './ProjectCard';
 import safiriPhoto from '../assets/img/safiri-home-page.png';
-import simpleSocialMediaWebsitePhoto from '../assets/img/simple-interactive-social-media-website-home-page.png';
+// import simpleSocialMediaWebsitePhoto from '../assets/img/simple-interactive-social-media-website-home-page.png';
 import medrinJobsPhoto from '../assets/img/medrin-jobs.png';
 import financeManagerCLI from '../assets/img/finance-manager-cli.png';
-import flatdangoMovieTheater from '../assets/img/flatdango-movie-theatre-home-page.png';
-
+// import flatdangoMovieTheater from '../assets/img/flatdango-movie-theatre-home-page.png';
+import mkavitaWebsite from '../assets/img/mkavita-website.png';
+import whatsappClone from '../assets/img/whatsapp-clone.png';
 // import shoppingListWebsite from '../assets/img/shopping-list-home-page.png';
 import mernApplicationWebsite from '../assets/img/mern-application.png';
 // import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -21,12 +22,20 @@ export const Projects = () => {
       imgUrl: medrinJobsPhoto,
       webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
     },
+
     {
-      title: 'Safiri',
+      title: 'Mkavita',
       description:
-        'A travel app designed to help users explore various destinations, submit reviews, and view a slideshow of attractive travel locations',
-      imgUrl: safiriPhoto,
-      webUrl: 'https://safiri-phase-4-project.vercel.app/',
+        'Explore Mkavita’s journey as a musician, discover upcoming events, enjoy a curated discography, and get an exclusive glimpse behind the scenes.',
+      imgUrl: mkavitaWebsite,
+      webUrl: 'https://mkavita-website.vercel.app/',
+    },
+    {
+      title: 'WhatsWeb',
+      description:
+        "My WhatsApp clone demonstrates the cutting-edge technologies I've mastered—enabling real-time messaging, group chats, and friend connections.",
+      imgUrl: whatsappClone,
+      webUrl: 'https://whatsapp-clone-demo-zeta.vercel.app/',
     },
     {
       title: 'MERN Stack Products Application',
@@ -36,11 +45,11 @@ export const Projects = () => {
       webUrl: 'https://mern-application-crashcourse.onrender.com/',
     },
     {
-      title: 'Simple Interactive Social Media Website',
+      title: 'Safiri',
       description:
-        'My beginner attempt at creating a website clone of most of the social media apps we use with limited data',
-      imgUrl: simpleSocialMediaWebsitePhoto,
-      webUrl: 'https://phase-1-project-rho.vercel.app/',
+        'A travel app designed to help users explore various destinations, submit reviews, and view a slideshow of attractive travel locations',
+      imgUrl: safiriPhoto,
+      webUrl: 'https://safiri-phase-4-project.vercel.app/',
     },
     {
       title: 'Finance Manager CLI',
@@ -48,13 +57,6 @@ export const Projects = () => {
         "A finance manager to help in keeping track of one's expenses, income and manipulate them appropriately",
       imgUrl: financeManagerCLI,
       webUrl: 'https://github.com/Markbkiunga/phase-3-project',
-    },
-    {
-      title: 'Flatdango Movie Theater',
-      description:
-        'A simple mini web application that allows one to see a menu of movies, display its details and buy a ticket',
-      imgUrl: flatdangoMovieTheater,
-      webUrl: 'https://week-3-code-challenge-phi.vercel.app/',
     },
   ];
 
