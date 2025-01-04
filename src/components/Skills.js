@@ -83,6 +83,9 @@ export const Skills = () => {
                     responsive={responsive}
                     infinite={true}
                     className="owl-carousel owl-theme skill-slider"
+                    autoPlay={true}
+                    autoPlaySpeed={3000}
+                    transitionDuration={500}
                   >
                     <div className="item">
                       <img src={htmlLogo} alt="HTML-logo" />
@@ -132,6 +135,9 @@ export const Skills = () => {
                   <Carousel
                     responsive={responsive}
                     infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={3000}
+                    transitionDuration={500}
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
@@ -174,6 +180,9 @@ export const Skills = () => {
                   <Carousel
                     responsive={responsive}
                     infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={3000}
+                    transitionDuration={500}
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
@@ -208,6 +217,9 @@ export const Skills = () => {
                   <Carousel
                     responsive={responsive}
                     infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={3000}
+                    transitionDuration={500}
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
@@ -230,6 +242,9 @@ export const Skills = () => {
                   <Carousel
                     responsive={responsive}
                     infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={3000}
+                    transitionDuration={500}
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
