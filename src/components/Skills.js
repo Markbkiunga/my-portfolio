@@ -29,6 +29,7 @@ import nextjsLogo from '../assets/img/nextjs.svg';
 import cssLogo from '../assets/img/css.svg';
 import vercelLogo from '../assets/img/vercel.svg';
 import convexLogo from '../assets/img/convex.svg';
+import mySqlLogo from '../assets/img/mysql.svg';
 // import arrow1 from '../assets/img/arrow1.svg';
 // import arrow2 from '../assets/img/arrow2.svg';
 import colorSharp from '../assets/img/color-sharp.png';
@@ -155,6 +156,10 @@ export const Skills = () => {
                     <div className="item">
                       <img src={postgresLogo} alt="Postgres-logo" />
                       <h5>PostgreSQL</h5>
+                    </div>
+                    <div className="item">
+                      <img src={mySqlLogo} alt="MySQL-logo" />
+                      <h5>MySQL</h5>
                     </div>
                     <div className="item">
                       <img src={mongodbLogo} alt="MongoDB-logo" />
