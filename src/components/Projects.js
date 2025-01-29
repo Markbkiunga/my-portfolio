@@ -9,6 +9,7 @@ import mkavitaWebsite from '../assets/img/mkavita-website.png';
 import whatsappClone from '../assets/img/whatsapp-clone.png';
 // import shoppingListWebsite from '../assets/img/shopping-list-home-page.png';
 import mernApplicationWebsite from '../assets/img/mern-application.png';
+import valentinesDayWebsite from '../assets/img/valentines-day-website.png';
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -45,11 +46,11 @@ export const Projects = () => {
       webUrl: 'https://mern-application-crashcourse.onrender.com/',
     },
     {
-      title: 'Safiri',
+      title: 'Valentines Day Website',
       description:
-        'A travel app designed to help users explore various destinations, submit reviews, and view a slideshow of attractive travel locations',
-      imgUrl: safiriPhoto,
-      webUrl: 'https://safiri-phase-4-project.vercel.app/',
+        "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
+      imgUrl: valentinesDayWebsite,
+      webUrl: 'https://valentines-day-website-blond.vercel.app/',
     },
     {
       title: 'Finance Manager CLI',
