@@ -1,6 +1,6 @@
 // import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from './ProjectCard';
-import safiriPhoto from '../assets/img/safiri-home-page.png';
+// import safiriPhoto from '../assets/img/safiri-home-page.png';
 // import simpleSocialMediaWebsitePhoto from '../assets/img/simple-interactive-social-media-website-home-page.png';
 import medrinJobsPhoto from '../assets/img/medrin-jobs.png';
 import financeManagerCLI from '../assets/img/finance-manager-cli.png';
@@ -50,7 +50,7 @@ export const Projects = () => {
       description:
         "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
       imgUrl: valentinesDayWebsite,
-      webUrl: 'https://valentines-day-website-blond.vercel.app/',
+      webUrl: 'https://create-your-valentine.vercel.app/',
     },
     {
       title: 'Finance Manager CLI',
