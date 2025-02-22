@@ -9,7 +9,10 @@ import mkavitaWebsite from '../assets/img/mkavita-website.png';
 import whatsappClone from '../assets/img/whatsapp-clone.png';
 // import shoppingListWebsite from '../assets/img/shopping-list-home-page.png';
 import mernApplicationWebsite from '../assets/img/mern-application.png';
-import valentinesDayWebsite from '../assets/img/valentines-day-website.png';
+import valentinesDayWebsite from '../assets/img/create-your-valentine1.png';
+import valentinesDayWebsite2 from '../assets/img/create-your-valentine2.png';
+
+import moonTalentFactoryWebsite from '../assets/img/moon-talent-factory-website.png';
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,11 +20,11 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects = [
     {
-      title: 'Medrin Jobs',
+      title: 'Moon Talent Factory',
       description:
-        'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
-      imgUrl: medrinJobsPhoto,
-      webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
+        'Empowering young talents through music, arts, and mentorship. Join us in nurturing creativity and building confidence.',
+      imgUrl: moonTalentFactoryWebsite,
+      webUrl: 'https://moon-talent-factory-website.vercel.app/',
     },
 
     {
@@ -39,19 +42,34 @@ export const Projects = () => {
       webUrl: 'https://whatsapp-clone-demo-zeta.vercel.app/',
     },
     {
+      title: 'Create Your Valentine',
+      description:
+        "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
+      imgUrl: valentinesDayWebsite,
+      webUrl: 'https://create-your-valentine.vercel.app/',
+    },
+    {
+      title: 'Create Your Valentine 2',
+      description:
+        'Now more automated than ever! Create multiple personalized pages, each password-protected and fully encrypted for complete privacy.',
+      imgUrl: valentinesDayWebsite2,
+      webUrl: 'https://create-your-valentine2.vercel.app/',
+    },
+    {
+      title: 'Medrin Jobs',
+      description:
+        'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
+      imgUrl: medrinJobsPhoto,
+      webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
+    },
+    {
       title: 'MERN Stack Products Application',
       description:
         'A MERN stack website which allows users to create, view, update and delete products',
       imgUrl: mernApplicationWebsite,
       webUrl: 'https://mern-application-crashcourse.onrender.com/',
     },
-    {
-      title: 'Valentines Day Website',
-      description:
-        "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
-      imgUrl: valentinesDayWebsite,
-      webUrl: 'https://create-your-valentine.vercel.app/',
-    },
+
     {
       title: 'Finance Manager CLI',
       description:
