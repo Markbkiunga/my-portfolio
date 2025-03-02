@@ -118,7 +118,7 @@ export const Banner = () => {
                     isVisible ? 'header-img-container' : 'header-img-container'
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <img src={headerImg} alt="Header Img" loading="lazy" />
                 </div>
               )}
             </TrackVisibility>
