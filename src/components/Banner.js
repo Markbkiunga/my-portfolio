@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import headerImg from '../assets/img/my-cropped-full-image.png';
+import headerImg from '../assets/img/my-cropped-full-image.avif';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -118,7 +118,7 @@ export const Banner = () => {
                     isVisible ? 'header-img-container' : 'header-img-container'
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <img src={headerImg} alt="Header Img" loading="lazy" />
                 </div>
               )}
             </TrackVisibility>
