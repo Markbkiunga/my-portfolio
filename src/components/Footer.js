@@ -38,7 +38,11 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <p>Made by Mark Brian with ♡<br />All Rights Reserved</p>
+            <p>
+              Made by MBK Solutions
+              <br />
+              All Rights Reserved
+            </p>
           </Col>
         </Row>
       </Container>

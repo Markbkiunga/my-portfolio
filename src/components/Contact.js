@@ -34,17 +34,20 @@ export const Contact = () => {
 
     setButtonText('Sending...');
     try {
-      let response = await fetch('https://my-portfolio1-g274.onrender.com/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json;charset=utf-8',
-        },
-        body: JSON.stringify(formDetails),
-      });
+      let response = await fetch(
+        'https://my-portfolio1-g274.onrender.com/contact',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json;charset=utf-8',
+          },
+          body: JSON.stringify(formDetails),
+        }
+      );
 
       setButtonText('Send');
       let result = await response.json();
-      
+
       setFormDetails(formInitialDetails);
 
       if (result.code === 200) {
@@ -68,9 +71,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <img
-                  className={
-                    isVisible ? 'animate__animated animate__zoomIn' : ''
-                  }
+                  // className={
+                  //   isVisible ? 'animate__animated animate__zoomIn' : ''
+                  // }
                   src={contactImg}
                   alt="Contact Us"
                 />
@@ -81,9 +84,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
-                  className={
-                    isVisible ? 'animate__animated animate__fadeIn' : ''
-                  }
+                // className={
+                //   isVisible ? 'animate__animated animate__fadeIn' : ''
+                // }
                 >
                   <h2>Get In Touch</h2>
                   <form onSubmit={handleSubmit}>
