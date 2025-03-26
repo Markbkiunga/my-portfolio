@@ -6,6 +6,7 @@ import headerImg from '../assets/img/my-cropped-full-image.avif';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { useNavigate } from 'react-router-dom';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,7 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
-
+  const navigate = useNavigate();
   return (
     <section className="banner" id="home">
       <Container>
@@ -92,19 +93,12 @@ export const Banner = () => {
                   </p>
                   <button
                     onClick={() => {
-                      // const connectSection = document.getElementById('connect');
-                      // if (connectSection) {
-                      //   connectSection.scrollIntoView();
-                      // }
-                      window.open(
-                        'https://drive.google.com/file/d/1ie_eidd1kerw50GOBUgoGR0C17WSPe9T/view?usp=sharing',
-                        '_blank'
-                      );
+                      navigate('/technicalcv'); // Navigate using React Router
                     }}
                   >
                     View CV
                     <ArrowRightCircle size={25} />
-                  </button>
+                  </button>{' '}
                 </div>
               )}
             </TrackVisibility>

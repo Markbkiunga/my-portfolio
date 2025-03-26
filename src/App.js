@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,9 +10,12 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { useEffect, useState } from 'react';
 import LoadingScreen from './LoadingScreen';
+import TechnicalCV from './components/TechnicalCV'; // Import TechnicalCV component
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     // Simulate an API call
     setTimeout(() => {
@@ -23,16 +26,31 @@ function App() {
   if (isLoading) {
     return <LoadingScreen />;
   }
+
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-      <Analytics />
-    </div>
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <NavBar />
+                <Banner />
+                <Skills />
+                <Projects />
+                <Contact />
+              </>
+            }
+          />
+          <Route path="/technicalcv" element={<TechnicalCV />} />{' '}
+          {/* New Route */}
+        </Routes>
+        <Footer />
+        <Analytics />
+      </div>
+    </Router>
   );
 }
 
