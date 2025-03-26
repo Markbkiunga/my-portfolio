@@ -1,7 +1,6 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import colorSharp from '../assets/img/color-sharp.png';
 
 const skillCategories = [
   {
@@ -63,7 +62,7 @@ const skillCategories = [
       { name: 'Jupyter Notebook', src: 'jupyter.svg' },
       { name: 'RStudio', src: 'r-studio.svg' },
       { name: 'PyCharm', src: 'pycharm.svg' },
-      { name: 'SQL', src: 'mysql.svg' },
+      { name: 'MySQL', src: 'mysql.svg' },
     ],
   },
   {
@@ -128,11 +127,6 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img
-        className="background-image-left"
-        src={colorSharp}
-        alt="Background"
-      />
     </section>
   );
 };
