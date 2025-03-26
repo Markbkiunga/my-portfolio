@@ -6,6 +6,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <Container>
@@ -39,9 +40,9 @@ export const Footer = () => {
               </a>
             </div>
             <p>
-              Made by MBK Solutions
+              Adapted by MBK Solutions
               <br />
-              All Rights Reserved
+              &copy; {currentYear}. All Rights Reserved
             </p>
           </Col>
         </Row>
