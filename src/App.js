@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import { useEffect, useState } from 'react';
 import LoadingScreen from './LoadingScreen';
 import TechnicalCV from './components/TechnicalCV'; // Import TechnicalCV component
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Routes>
           <Route

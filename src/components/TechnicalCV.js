@@ -9,11 +9,7 @@ const TechnicalCV = () => {
         <h1>Mark Brian Kiunga Kamau</h1>
         <p className="cv-title">Techie</p>
         <p className="cv-contact">
-          📧{' '}
-          <a href="mailto:markbriankiunga@gmail.com">
-            markbriankiunga@gmail.com
-          </a>{' '}
-          | 🔗{' '}
+          📧 <a href="mailto:markbriankiunga@gmail.com">Email</a> | 🔗{' '}
           <a
             href="https://www.linkedin.com/in/markbriankiungakamau"
             target="_blank"
@@ -83,7 +79,9 @@ const TechnicalCV = () => {
             >
               Mkavita
             </a>{' '}
-            – A music portfolio website.
+            – Explore Mkavita’s journey as a musician, discover upcoming events,
+            enjoy a curated discography, and get an exclusive glimpse behind the
+            scenes.
           </li>
           <li>
             <a
@@ -93,7 +91,8 @@ const TechnicalCV = () => {
             >
               MBK Solutions
             </a>{' '}
-            – Tech & music service platform.
+            – Providing affordable, high-quality services in both tech and
+            music.
           </li>
           <li>
             <a
@@ -103,7 +102,8 @@ const TechnicalCV = () => {
             >
               Moon Talent Factory
             </a>{' '}
-            – A talent empowerment platform.
+            – Empowering young talents through music, arts, and mentorship. Join
+            us in nurturing creativity and building confidence.
           </li>
           <li>
             <a
@@ -113,7 +113,9 @@ const TechnicalCV = () => {
             >
               Create Your Valentine 2
             </a>{' '}
-            – A personalized message-sharing web app.
+            – Share your love with someone special today. Create multiple
+            personalized pages, each password-protected and fully encrypted for
+            complete privacy.
           </li>
           <li>
             <a
@@ -123,7 +125,9 @@ const TechnicalCV = () => {
             >
               WhatsWeb
             </a>{' '}
-            – A real-time messaging app.
+            – My WhatsApp clone demonstrates the cutting-edge technologies I've
+            mastered, enabling real-time messaging, group chats, and friend
+            connections.
           </li>
         </ul>
       </section>
