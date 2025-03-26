@@ -7,14 +7,14 @@ const projectData = [
     title: 'Moon Talent Factory',
     description:
       'Empowering young talents through music, arts, and mentorship. Join us in nurturing creativity and building confidence.',
-    imgUrl: 'moon-talent-factory-website.png',
+    imgUrl: 'moon-talent-factory-website.avif',
     webUrl: 'https://moon-talent-factory-website.vercel.app/',
   },
   {
     title: 'Mkavita',
     description:
       'Explore Mkavita’s journey as a musician, discover upcoming events, enjoy a curated discography, and get an exclusive glimpse behind the scenes.',
-    imgUrl: 'mkavita-website.png',
+    imgUrl: 'mkavita-website.avif',
     webUrl: 'https://mkavita-website.vercel.app/',
   },
   {
@@ -28,42 +28,42 @@ const projectData = [
     title: 'WhatsWeb',
     description:
       "My WhatsApp clone demonstrates the cutting-edge technologies I've mastered—enabling real-time messaging, group chats, and friend connections.",
-    imgUrl: 'whatsapp-clone.png',
-    webUrl: 'https://whatsapp-clone-demo-zeta.vercel.app/',
+    imgUrl: 'whatsweb.avif',
+    webUrl: 'https://whatsapp-clone-whatsweb.vercel.app/',
   },
   {
     title: 'Create Your Valentine',
     description:
       "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
-    imgUrl: 'create-your-valentine1.png',
+    imgUrl: 'create-your-valentine1.avif',
     webUrl: 'https://create-your-valentine.vercel.app/',
   },
   {
     title: 'Create Your Valentine 2',
     description:
       'Now more automated than ever! Create multiple personalized pages, each password-protected and fully encrypted for complete privacy.',
-    imgUrl: 'create-your-valentine2.png',
+    imgUrl: 'create-your-valentine2.avif',
     webUrl: 'https://create-your-valentine2.vercel.app/',
   },
   {
     title: 'Medrin Jobs',
     description:
       'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
-    imgUrl: 'medrin-jobs.png',
-    webUrl: 'https://medrin-jobs-frontend-beta.vercel.app/',
+    imgUrl: 'medrin-jobs.avif',
+    webUrl: 'https://medrin-jobs.vercel.app/',
   },
   {
     title: 'MERN Stack Products Application',
     description:
       'A MERN stack website which allows users to create, view, update and delete products',
-    imgUrl: 'mern-application.png',
+    imgUrl: 'mern-application.avif',
     webUrl: 'https://mern-application-crashcourse.onrender.com/',
   },
   {
     title: 'Finance Manager CLI',
     description:
       "A finance manager to help in keeping track of one's expenses, income and manipulate them appropriately",
-    imgUrl: 'finance-manager-cli.png',
+    imgUrl: 'finance-manager-cli.avif',
     webUrl: 'https://github.com/Markbkiunga/phase-3-project',
   },
 ];
