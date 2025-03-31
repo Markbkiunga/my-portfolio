@@ -91,7 +91,7 @@ export const Contact = () => {
                   <h2>Get In Touch</h2>
                   <form onSubmit={handleSubmit}>
                     <Row>
-                      <Col size={12} sm={6} className="px-1">
+                      <Col size={12} sm={6} className="px-3">
                         <input
                           type="text"
                           value={formDetails.firstName}
@@ -101,7 +101,7 @@ export const Contact = () => {
                           }
                         />
                       </Col>
-                      <Col size={12} sm={6} className="px-1">
+                      <Col size={12} sm={6} className="px-3">
                         <input
                           type="text"
                           value={formDetails.lastName}
@@ -111,7 +111,7 @@ export const Contact = () => {
                           }
                         />
                       </Col>
-                      <Col size={12} sm={6} className="px-1">
+                      <Col size={12} sm={6} className="px-3">
                         <input
                           type="email"
                           value={formDetails.email}
@@ -121,7 +121,7 @@ export const Contact = () => {
                           }
                         />
                       </Col>
-                      <Col size={12} sm={6} className="px-1">
+                      <Col size={12} sm={6} className="px-3">
                         <input
                           type="tel"
                           value={formDetails.phone}
@@ -131,7 +131,7 @@ export const Contact = () => {
                           }
                         />
                       </Col>
-                      <Col size={12} className="px-1">
+                      <Col size={12} className="px-3">
                         <textarea
                           rows="6"
                           value={formDetails.message}

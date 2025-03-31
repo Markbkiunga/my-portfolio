@@ -9,21 +9,12 @@ const TechnicalCV = () => {
         <h1>Mark Brian Kiunga Kamau</h1>
         <p className="cv-title">Techie</p>
         <p className="cv-contact">
-          📧 <a href="mailto:markbriankiunga@gmail.com">Email</a> | 🔗{' '}
           <a
-            href="https://www.linkedin.com/in/markbriankiungakamau"
+            href="https://www.linktr.ee/markbkiunga"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
-          </a>{' '}
-          | 🖥️{' '}
-          <a
-            href="https://github.com/Markbkiunga"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
+            🔗Linktree
           </a>
         </p>
       </header>

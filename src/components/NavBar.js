@@ -9,6 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -34,10 +35,17 @@ export const NavBar = () => {
         <Navbar.Brand href="/">
           <img src={logo} alt="Logo" className="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon"></span>
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? (
+            <span className="close-icon">✖</span> // X icon when open
+          ) : (
+            <span className="navbar-toggler-icon"></span> // Default hamburger
+          )}
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" in={isOpen}>
           <Nav className="ms-auto">
             <Nav.Link
               href="#home"
