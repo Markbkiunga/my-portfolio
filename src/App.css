@@ -94,7 +94,7 @@ p.danger {
 }
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  padding: 18px 0px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -241,7 +241,11 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   border-color: transparent;
 }
-
+.close-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -643,7 +647,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 10px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -676,19 +680,6 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.newsletter-bx {
-  background: #ddd;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
 }
 .new-email-bx {
   background: #fff;
@@ -751,6 +742,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .logo {
   border-radius: 20px;
+  width: 80px;
 }
 @media only screen and (max-width: 768px) {
   #project-tiles {
@@ -794,7 +786,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 
 .cv-title {
-  font-size: 18px;
+  font-size: 28px;
   color: #d1d5db; /* Light gray */
 }
 
@@ -803,10 +795,13 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 .cv-section a {
   color: #ffcc00; /* Bright amber for contrast */
   font-weight: bold;
+  font-size: 18px; /* Increase font size */
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  display: inline-block;
+  padding: 4px 6px; /* Add some padding */
+  border-radius: 5px;
 }
-
 .cv-contact a:hover,
 .cv-section a:hover {
   color: #ff9900; /* Darker amber on hover */
