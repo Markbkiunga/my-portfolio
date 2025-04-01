@@ -5,7 +5,7 @@ const LoadingScreen = () => {
     <div id="loading-screen-container">
       <img
         alt="mark-logo"
-        src="https://mark-brian-portfolio.vercel.app/static/media/mark-logo.0f33804fda1536c25080.png"
+        src="https://markbriankiungakamau.vercel.app/static/media/mark-logo.0f33804fda1536c25080.png"
       />
     </div>
   );
