@@ -32,6 +32,13 @@ const projectData = [
     webUrl: 'https://whatsapp-clone-whatsweb.vercel.app/',
   },
   {
+    title: 'Mzikimart',
+    description: 'Connecting music sellers and buyers like never before!',
+    imgUrl: 'mzikimart.avif',
+    webUrl: 'https://edu-mzikimart.odoo.com',
+  },
+
+  {
     title: 'Create Your Valentine',
     description:
       "Craft a personalized Valentine's message with photos, music, and beautiful animations. Share your love with someone special today.",
@@ -51,13 +58,6 @@ const projectData = [
       'A full-stack web application which creates an accessible and secure online space that connects job seekers with employers efficiently.',
     imgUrl: 'medrin-jobs.avif',
     webUrl: 'https://medrin-jobs.vercel.app/',
-  },
-  {
-    title: 'MERN Stack Products Application',
-    description:
-      'A MERN stack website which allows users to create, view, update and delete products',
-    imgUrl: 'mern-application.avif',
-    webUrl: 'https://mern-application-crashcourse.onrender.com/',
   },
   {
     title: 'Finance Manager CLI',

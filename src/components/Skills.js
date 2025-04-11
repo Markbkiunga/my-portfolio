@@ -63,6 +63,7 @@ const skillCategories = [
       { name: 'RStudio', src: 'r-studio.svg' },
       { name: 'PyCharm', src: 'pycharm.svg' },
       { name: 'MySQL', src: 'mysql.svg' },
+      { name: 'SPSS', src: 'spss.svg' },
     ],
   },
   {
