@@ -856,3 +856,51 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   color: #ffffff; /* White text */
   transform: scale(1.05); /* Slight zoom effect */
 }
+
+/* Not Found CSS */
+.notfound-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(#3f3128, black); /* Match CV background */
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.notfound-code {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #ffcc00; /* Bright gold */
+  margin-bottom: 1rem;
+}
+
+.notfound-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d1d5db; /* Light gray */
+  margin-bottom: 1rem;
+}
+
+.notfound-description {
+  font-size: 1rem;
+  color: #d1d5db; /* Match light text */
+  margin-bottom: 2rem;
+}
+
+.notfound-button {
+  background-color: #ffcc00; /* Bright gold */
+  color: #121212; /* Dark text */
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.notfound-button:hover {
+  background-color: #ff9900; /* Amber hover */
+  color: #ffffff; /* White text on hover */
+  transform: scale(1.05);
+}

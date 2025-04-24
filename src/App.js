@@ -12,6 +12,7 @@ import { useEffect, useState } from 'react';
 import LoadingScreen from './LoadingScreen';
 import TechnicalCV from './components/TechnicalCV'; // Import TechnicalCV component
 import ScrollToTop from './components/ScrollToTop';
+import NotFound from './components/NotFound';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,7 +21,7 @@ function App() {
     // Simulate an API call
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 1500);
   }, []);
 
   if (isLoading) {
@@ -46,6 +47,7 @@ function App() {
           />
           <Route path="/technicalcv" element={<TechnicalCV />} />{' '}
           {/* New Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <Analytics />
