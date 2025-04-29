@@ -14,7 +14,7 @@ const TechnicalCV = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗Linktree
+            🔗 Linktree
           </a>
         </p>
       </header>
