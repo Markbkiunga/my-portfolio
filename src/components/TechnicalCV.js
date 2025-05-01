@@ -204,7 +204,23 @@ const TechnicalCV = () => {
           </li>
         </ul>
       </section>
-
+      <div className="cv-footer">
+        <a
+          href="https://drive.google.com/file/d/1ximZRKjE_AW1poFPhsoIMdDg_ol2XIu1/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-button"
+        >
+          📄 View Full CV Document
+        </a>
+        <a
+          href="https://drive.google.com/u/0/uc?id=1ximZRKjE_AW1poFPhsoIMdDg_ol2XIu1&export=download"
+          className="cta-button"
+          download
+        >
+          ⬇️ Download CV
+        </a>
+      </div>
       <div className="cv-footer">
         <Link to="/" className="cta-button">
           Back to Portfolio

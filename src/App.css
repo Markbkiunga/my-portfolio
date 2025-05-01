@@ -851,6 +851,9 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
   margin-top: 30px;
 }
 
+.cv-footer a + a {
+  margin-left: 1rem;
+}
 .cta-button {
   display: inline-block;
   padding: 12px 24px;
