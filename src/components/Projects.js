@@ -37,12 +37,6 @@ const projectData = [
     imgUrl: 'mzikimart.avif',
     webUrl: 'https://mzikimart.vercel.app/',
   },
-  {
-    title: 'Mzikimart (Odoo)',
-    description: 'Connecting music sellers and buyers like never before!',
-    imgUrl: 'mzikimart-odoo.avif',
-    webUrl: 'https://edu-mzikimart.odoo.com',
-  },
 
   {
     title: 'Create Your Valentine',
