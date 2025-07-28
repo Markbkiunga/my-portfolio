@@ -206,7 +206,7 @@ const TechnicalCV = () => {
       </section>
       <div className="cv-footer">
         <a
-          href="https://drive.google.com/file/d/1ximZRKjE_AW1poFPhsoIMdDg_ol2XIu1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qPHI8AOCHsehEg40N9-x_5mBXhZHDvyp/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="cta-button"
@@ -214,7 +214,7 @@ const TechnicalCV = () => {
           📄 View Full CV Document
         </a>
         <a
-          href="https://drive.google.com/u/0/uc?id=1ximZRKjE_AW1poFPhsoIMdDg_ol2XIu1&export=download"
+          href="https://drive.google.com/u/0/uc?id=1qPHI8AOCHsehEg40N9-x_5mBXhZHDvyp&export=download"
           className="cta-button"
           download
         >
