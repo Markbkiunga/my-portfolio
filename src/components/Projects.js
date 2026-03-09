@@ -15,7 +15,7 @@ const projectData = [
     description:
       'Explore Mkavita’s journey as a musician, discover upcoming events, enjoy a curated discography, and get an exclusive glimpse behind the scenes.',
     imgUrl: 'mkavita-website.avif',
-    webUrl: 'https://mkavita-website.vercel.app/',
+    webUrl: 'https://mkavita.vercel.app/',
   },
   {
     title: 'MBK Solutions',

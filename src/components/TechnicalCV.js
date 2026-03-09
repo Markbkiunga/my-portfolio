@@ -64,7 +64,7 @@ const TechnicalCV = () => {
         <ul>
           <li>
             <a
-              href="https://www.mkavita.co.ke"
+              href="https://mkavita.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
             >
